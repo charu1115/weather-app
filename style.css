@@ -18,8 +18,8 @@ input{
   border: none;  
   background-color: #fff;  
   font-family: inherit;  
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);  
-  min-width: 300px;  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);  
+  min-width: 400px;  
   font-size: 1rem;  
 }  
 input:focus{  
@@ -37,3 +37,15 @@ input:focus{
 /* .weather img{  
   transform: scale(2);  
 } */  
+
+
+/* Home Page style */
+.heading {
+  font-size: 15vw;
+  font-weight: 700;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjF9');
+}
